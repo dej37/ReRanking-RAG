@@ -77,11 +77,6 @@ _Not done yet._ Planned: a set of 15-20 questions with known correct answers (fo
 | + reranking | TBD |
 | + article-aware chunking | TBD |
 
-## Known limitations
-
-- **Incomplete answers on list-style questions.** Asking "What practices are prohibited under the EU AI Act?" returns only some of the practices in Article 5. Many results are recitals (the explanatory preamble), which use similar wording to the binding article, and the opening of Article 5 often does not reach the model. This question is kept as a baseline to measure improvements against.
-- **Wrong labels in answers.** The model sometimes gives a heading that does not match the cited text. The citation points to the right page, but the answer should be checked against the source.
-- **Not legal advice.** This is a learning project. Always check the original text.
 
 ## Roadmap
 

@@ -8,6 +8,18 @@ DIRECTORY = 'chroma_db'
 TOP_K=20
 CHAT_MODEL='open-mistral-nemo'
 EMBEDDING_MODEL = 'mistral-embed'
-WEIGHTS=[0.5,0.5]
-TOP_N = 5 
-SEPARATORS=["\nArticle ", "\n\n", "\n", " ", ""]
+WEIGHTS=[0.8,0.2]
+TOP_N = 15
+SEPARATORS= [
+    "\nCHAPTER ",
+    "\nChapter ",
+    "\nSECTION ",
+    "\nSection ",
+    "\nArticle ",
+    "\nARTICLE ",
+    "\n\n",
+    "\n",
+    ". ",
+    " ",
+    "",
+]

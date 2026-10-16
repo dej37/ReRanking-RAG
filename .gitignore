@@ -1,5 +1,6 @@
-/.venv/
+.venv/
 /data/
-/chroma_db/
-/notebook.ipynb
-/.env
+chroma_db/
+notebook.ipynb
+.env
+__pycache__/

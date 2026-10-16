@@ -4,6 +4,6 @@ def load(paths):
     for path in paths:
         loader=PyPDFLoader(path)
         docs.extend(loader.load())
-        return docs
+    return docs
 
    
